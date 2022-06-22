@@ -1,0 +1,41 @@
+#content{
+    display: flex;
+   margin-top: 50px;
+}
+.item img{
+    width: 90%;
+    margin: 0 5%;
+    transform: translateY(35px);
+  transition: 0.5s;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.item img:hover{
+        border-radius: unset;
+        border: none;
+        transform: unset;
+      
+
+}
+ .item .img {
+    height: 245px;
+}
+.item #title{
+    margin-top: 40px;
+    font-family: "Roboto Slab";
+    font-weight: 700px;
+    font-size: 18px;
+    color: #585858;
+}
+.item #title:hover{
+    color:#f7b111;
+    cursor: pointer;
+}
+.item #content{
+ margin-top: 10px;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-weight: 500px;
+    color: #585858;
+    margin-bottom: 50px;
+}

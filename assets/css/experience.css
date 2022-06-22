@@ -1,0 +1,55 @@
+#content .item{
+    
+    cursor:pointer;
+    width: 30%;
+}
+#content .item img{
+width: 90%;
+height: 250px;
+
+}
+#top, #bottom{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+#top{
+    margin-bottom: 40px;
+}
+.item img{
+transform: translateY(35px);
+  transition: 0.5s;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.item img:hover{
+        border-radius: unset;
+        border: none;
+        transform: unset;
+      
+}
+
+p.title{
+    color: #585858;
+     margin-top: 40px;
+     font-family: "Roboto Slab";
+     font-weight: 600;
+     font-size: 18px;
+     margin-bottom: 8px;
+     
+}
+p.title:hover{
+    color:#f7b111;
+    cursor: pointer;
+}
+p.content{
+    color: #585858;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+}
+
+
+
+

@@ -1,0 +1,146 @@
+
+#content .item {  
+  cursor: pointer;
+  /* width: 25%;   */
+  border: 1px solid #e3e1e1;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 15px 15px;
+  padding: 5px 5px;
+  /* position: relative; */
+}
+.item img{
+width: 260px;
+height: 260px;
+}
+.item #add .num table,.item #add .num td,.item #add .num tr{
+    border: 1px solid rgb(56, 48, 48);
+    border-collapse: collapse;
+}
+.item #add .num{
+    display: flex;
+    justify-content: center;
+}
+.item #add .num td{
+    padding: 7px;
+    /* margin: 1px; */
+
+}
+.item #add .num td.num{
+    padding: 7px 15px;
+}
+.item #add .num td.up-dow:hover{
+    cursor: pointer;
+    background-color: #b7dc36;
+}
+.item #add .num table{
+    width: 15%;
+}
+.item #add > .buy{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.item #add > .buy > .buy{
+    width: 35%;
+    text-align: center;
+}
+.item #add > .buy > .add{
+    width: 50%;
+    margin-right: 5px;
+    text-align: center;
+}
+#first-item, #item-center, #last-item{
+    display: flex;
+   margin: 30px 0px;
+  
+   justify-content: center;
+}
+.item #add > .buy a{
+    text-decoration: none;
+    padding: 10px 5px;
+    display: block;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.item #add > .buy > .add a{
+    background-color: #b7dc36;
+}
+.item #add > .buy > .add a:hover{
+    background-color: #f7b111;
+}
+.item #add > .buy > .buy a{
+    background-color: #FFCD38;
+}
+
+.item #add > .buy > .buy a:hover{
+background-color: #e63946;
+}
+
+p.title{
+    font-family: "Robota slab";
+    font-size: 18px;
+    font-weight: 900px;
+    color: #685f52;
+    text-align: center;
+    margin: 5px 0;
+}
+
+p.content{
+    font-family: "Robota slab";
+    font-size: 17px;
+    color: black;
+    font-weight: 400px;
+    text-align: center;
+    margin: 10px 0;
+    font-style: italic;
+}
+p.price{
+    font-family: "Robota slab";
+    font-size: 16px;
+    color: #585858;
+    text-align: center;
+    
+}
+p.price span{
+    margin: 0 5px;
+}
+p.price .old-price{
+    text-decoration: line-through;
+
+}
+
+#row-button  {
+    margin-top: 10px;
+    margin-bottom: 85px;
+    margin-left: 340px;
+    border: 1px solid #e3e1e1 ;
+    text-align: center;
+    padding: 15px 3px;
+    display: inline-block;
+    width: 50%;
+}
+.item #add > .num{
+    margin-top: 10px;
+}
+.row ul li{
+display: inline;
+margin: 10px 10px;
+border: 1px solid #ddd;
+ font-size: 14px;
+font-weight: bold;
+ background-color: gainsboro;
+ cursor: pointer;
+padding: 5px 6px;
+}
+.row ul li > a{
+text-decoration: none;
+color: #585858;
+}
+.row ul li:hover{
+    background-color: #f7b111;
+}
+.row li.main{
+    background-color: #b7dc36;
+}
